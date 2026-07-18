@@ -73,8 +73,8 @@ run_worker_first = ["/api/*", "/identity/*", "/notifications/*"]
 
 # Push Notification Configuration (optional)
 PUSH_ENABLED = "true"
-# PUSH_RELAY_URI = "https://push.bitwarden.com"
-# PUSH_IDENTITY_URI = "https://identity.bitwarden.com"
+PUSH_RELAY_URI = "https://push.bitwarden.com"
+PUSH_IDENTITY_URI = "https://identity.bitwarden.com"
 
 # Number of days to keep soft-deleted items before auto-purging.
 # Defaults to 30 days if not set. Set to 0 to disable auto-purge.
